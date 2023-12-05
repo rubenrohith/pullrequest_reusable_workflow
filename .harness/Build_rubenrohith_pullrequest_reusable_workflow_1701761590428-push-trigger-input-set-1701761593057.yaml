@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rubenrohith_pullrequest_reusable_workflow_1701761590428-push-trigger-input-set
+  identifier: Build_rubenrohith_pullrequest_reusable_workflow_1701761590428pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_rubenrohith_pullrequest_reusable_workflow_1701761590428
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
